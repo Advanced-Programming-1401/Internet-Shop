@@ -14,6 +14,7 @@ public class Phone extends Product{
         this.storage = storage;
         this.OS = OS;
         this.screenSize = screenSize;
+        Object o = new Object();
     }
 
     public int getCameraQuality() {
@@ -63,6 +64,7 @@ public class Phone extends Product{
     public void setScreenSize(double screenSize) {
         this.screenSize = screenSize;
     }
+
 
     @Override
     public String toString() {
